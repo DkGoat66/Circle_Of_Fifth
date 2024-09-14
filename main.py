@@ -12,7 +12,7 @@ circle_of_fifths = {
 def get_random_key():
     return random.choice(list(circle_of_fifths.keys()))
 
-
+# Function to promopt the user with a question asking for the major chords
 def ask_question(key):
     answer = input(f"What are the major chords for the key of {key}? Use comma-separated values (e.g., C,E,G): ")
     chords = [chord.strip() for chord in answer.split(",")]
