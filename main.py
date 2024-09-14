@@ -23,7 +23,7 @@ def check_answer(key, user_chords):
     correct_chords = circle_of_fifths[key]
     return set(user_chords) == set(correct_chords)
 
-
+# Main function to run the quiz game
 def main():
     while True:
         key = get_random_key()
