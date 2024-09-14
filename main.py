@@ -18,7 +18,7 @@ def ask_question(key):
     chords = [chord.strip() for chord in answer.split(",")]
     return chords
 
-
+# Function to check if the user's input matches the correct chords for the given key
 def check_answer(key, user_chords):
     correct_chords = circle_of_fifths[key]
     return set(user_chords) == set(correct_chords)
