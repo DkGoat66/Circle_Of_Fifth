@@ -8,7 +8,7 @@ circle_of_fifths = {
     # Add the rest of the keys
 }
 
-
+#Function to randomly select a key from the Circle of Fifths
 def get_random_key():
     return random.choice(list(circle_of_fifths.keys()))
 
