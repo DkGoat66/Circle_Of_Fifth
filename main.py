@@ -38,6 +38,6 @@ def main():
         if input("Try another key? (yes/no): ").lower() != "yes":
             break
 
-
+# Entry point of the program 
 if __name__ == "__main__":
     main()
