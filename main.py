@@ -14,6 +14,7 @@ def get_random_key():
 
 # Function to promopt the user with a question asking for the major chords
 def ask_question(key):
+    # Ask the user to input the major chord for the given key
     answer = input(f"What are the major chords for the key of {key}? Use comma-separated values (e.g., C,E,G): ")
     chords = [chord.strip() for chord in answer.split(",")]
     return chords
