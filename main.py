@@ -27,6 +27,7 @@ def check_answer(key, user_chords):
 
 # Main function to run the quiz game
 def main():
+    #Loop to allow the user to play multiple rounds
     while True:
         key = get_random_key()
         user_chords = ask_question(key)
