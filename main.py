@@ -22,6 +22,7 @@ def ask_question(key):
 # Function to check if the user's input matches the correct chords for the given key
 def check_answer(key, user_chords):
     correct_chords = circle_of_fifths[key]
+    # Compare the user's chords to the correct chords, ignoring order by converting both to sets
     return set(user_chords) == set(correct_chords)
 
 # Main function to run the quiz game
