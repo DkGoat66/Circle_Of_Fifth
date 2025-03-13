@@ -5,3 +5,10 @@
 - **Adaptive Learning**: The difficulty of the exercises adapts based on your performance, offering a personalized learning experience.
 - **Progress Tracking**: Keep track of your improvement over time with detailed statistics on your exercise outcomes.
 - **Educational Resources**: Access in-depth tutorials and explanations about the Circle of Fifths and its importance in music theory.
+## Installation
+Prerequisites
+Ensure you have Python 3.8 or later installed.
+
+Install Required Libraries
+Run the following command to install dependencies:
+`pip install matplotlib`
